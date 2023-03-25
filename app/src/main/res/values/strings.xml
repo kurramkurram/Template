@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">template</string>
+
+    <string name="setting_about_this_app">このアプリについて</string>
+    <string name="setting_app">アプリケーションプライバシーポリシー</string>
+    <string name="setting_oss">オープンソースライセンス</string>
+    <string name="setting_app_version">アプリバージョン</string>
+    <string name="setting_question_title">お問い合わせ</string>
+    <string name="setting_question">お問い合わせはこちら</string>
+
+    <string name="setting_divider_cd">divider</string>
+    <string name="setting_app_arrow_cd">アプリケーションプライバシーポリシーを起動します</string>
+    <string name="setting_oss_arrow_cd">オープンソースライセンスを起動します</string>
+    <string name="setting_question_arrow_cd">問い合わせを行います</string>
+    <string name="setting_info_cd">問い合わせを行います</string>
+    <string name="title_activity_app">アプリケーションプライバシーポリシー</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="main_fragment_label">Main Fragment</string>
+    <string name="settings_fragment_label">Settings Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
