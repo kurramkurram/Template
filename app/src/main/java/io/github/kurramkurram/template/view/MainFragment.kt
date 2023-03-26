@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import io.github.kurramkurram.template.databinding.FragmentMainBinding
 import io.github.kurramkurram.template.viewmodel.MainViewModel
-import io.github.kurramkurram.template.viewmodel.SettingsViewModel
 
 /**
  * Main Fragment.
