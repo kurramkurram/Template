@@ -11,8 +11,6 @@ import io.github.kurramkurram.template.viewmodel.MainViewModel
 
 /**
  * Main Fragment.
- *
- * TODO: Update your app's first UI
  */
 class MainFragment : Fragment() {
 
