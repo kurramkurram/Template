@@ -9,19 +9,32 @@
         tools:context=".view.MainFragment">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/shuffle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
+            android:onClick="@{() -> viewModel.shuffleWord()}"
             android:text="shuffle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/origin_text" />
 
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:onClick="@{() -> viewModel.saveWord()}"
+            android:text="save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shuffle_text" />
+
         <EditText
             android:id="@+id/edit_text"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:text="@={viewModel.word}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,6 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginVertical="10dp"
+            android:text="@={viewModel.word}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/edit_text" />
@@ -41,9 +55,10 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginVertical="10dp"
+            android:text="@={viewModel.shuffledWord}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/button" />
+            app:layout_constraintTop_toBottomOf="@id/shuffle_button" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <data>
