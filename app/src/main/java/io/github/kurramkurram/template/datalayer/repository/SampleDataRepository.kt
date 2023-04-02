@@ -6,7 +6,7 @@ import io.github.kurramkurram.template.datalayer.datasource.SampleDataSource
 import io.github.kurramkurram.template.datalayer.datasource.SampleDataSourceImpl
 
 /**
- * This repository is sample.
+ * TODO This repository is sample.
  * You can create new repository class or use this repository class.
  * A repository class get some data from datasource classes.
  */

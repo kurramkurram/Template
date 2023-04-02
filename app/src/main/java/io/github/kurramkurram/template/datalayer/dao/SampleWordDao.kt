@@ -7,7 +7,7 @@ import androidx.room.Query
 import io.github.kurramkurram.template.datalayer.data.SampleWord
 
 /**
- * This is sample.
+ * TODO This is sample dao.
  * A dao interface access database by query.
  */
 @Dao

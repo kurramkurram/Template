@@ -8,7 +8,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 /**
- * This datasource is sample.
+ * TODO This datasource is sample.
  * You can create new datasource class or use this datasource class.
  * A datasource class get some data from database, preference, datastore and so on...
  */
