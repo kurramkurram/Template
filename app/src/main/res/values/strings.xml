@@ -22,6 +22,7 @@
     <string name="main_fragment_label">Main Fragment</string>
     <string name="settings_fragment_label">Settings Fragment</string>
 
+    <string name="edit_text_hint">enter something</string>
     <string name="save">save</string>
     <string name="shuffle">shuffle</string>
 </resources>
