@@ -13,6 +13,7 @@ import org.hamcrest.Matchers.*
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.io.File
 
 
 @RunWith(AndroidJUnit4::class)
@@ -72,6 +73,14 @@ class SampleTest {
         val shuffledTextView =
             uiDevice.wait(Until.findObject(By.res(PACKAGE_NAME, "shuffle_text")), TIME_OUT)
         val shuffledText = shuffledTextView.text
+
+        // take screenshot
+        val file = File("/sdcard/Pictures/screenshot.png")
+        uiDevice.takeScreenshot(file)
+
+        // rotate screen
+        uiDevice.setOrientationLeft()
+        Thread.sleep(1000)
 
         // select word
         val word = sampleDao.selectWord("ABCDE")
